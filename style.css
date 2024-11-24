@@ -146,6 +146,10 @@
    
 }
 
+.img-our img:hover{
+    transform: scale(1.2) ;
+}
+
 .text-our{
     padding: 45px 15px 30px 15px;
     text-align: center;
@@ -167,6 +171,7 @@
     letter-spacing: 6px;
     font-weight: 700;
     text-transform: uppercase;
+    margin: 5px 0px 35px;
 
 }
 .text-our pre{
@@ -185,6 +190,9 @@
     font-weight: 400;
     text-transform: uppercase;
     text-align: center;
+}
+.text-our a:hover{
+    color: red;
 }
 
 @keyframes slidedown {
